@@ -196,3 +196,12 @@ section #about {
     height: 60vh;
     z-index: -1;
 }
+
+.service-text {
+    display: block;
+}
+
+.service-text h2 {
+    display: flex;
+    justify-content: center;
+}
