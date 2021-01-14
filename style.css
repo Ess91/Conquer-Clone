@@ -200,13 +200,10 @@ section #about {
 
 .services-container {
     padding: 100px;
-    vertical-align: top;
+   
 }
 
-.services-wrapper {
-    padding-top: 20px;
-    vertical-align: top;
-}
+
 
 .service-text {
     /*display: block;*/
@@ -231,11 +228,17 @@ section #about {
 
 
 .services-wrapper {
-    width: 100%;
     columns: 4;
-    vertical-align: top;
-    /*column-gap: 10px;*/
+    display: flex;
+    width: 100%; 
 }
+
+.services-box {
+    flex: 1;
+    padding: 16px;
+    flex-grow: 1;
+}
+
 
 .services-wrapper .services-box {
     width: 100%;
@@ -290,6 +293,9 @@ section #about {
 .services-big-col .content {
     padding: 0 20px 30px 20px;
     background-color: #F2F2F2;
+    /*display: inline;
+
+    overflow: hidden;*/
     
 }
 
@@ -310,3 +316,14 @@ section #about {
     margin-top: 20px;
     padding: 10px 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
