@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-/*body {
-    overflow-x: hidden;
-}*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 ul {
     display: flex;
@@ -54,9 +54,6 @@ h1 {
     display: flex;
     justify-content: center;
     padding-top: 260px;
-    /*position: absolute;
-    top: 40%;
-    left: 40%;*/
 }
 
 #home h3 {
@@ -64,20 +61,10 @@ h1 {
     color: #fff;
     display: flex;
     justify-content: center;
-    /*position: absolute;
-    top: 55%;
-    left: 37%;*/
 }
 
-section #home {
-    height: 750px;
-}
 
 /*About Section */
-
-section #about {
-    height: 750px;
-}
 
 .about-container {
     padding: 100px;
@@ -195,7 +182,7 @@ section #about {
 /*Service Section */
 
 .service-img {
-    background-image: url(/img/tobias-keller-73F4pKoUkM0-unsplash.jpg);
+    background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -204,7 +191,7 @@ section #about {
 }
 
 .services-container {
-    padding: 100px;
+    padding: 60px;
    
 }
 
@@ -239,32 +226,24 @@ section #about {
 }
 
 .services-box {
-    flex: 1;
     padding: 16px;
-    flex-grow: 1;
+
 }
 
-
-
-.services-wrapper .services-box {
-    width: 100%;
-    display: inline;
-}
 
 .services-wrapper .services-box img {
-    max-width: 100%;
-    /*display: block;*/
+    display: block;
     height: 280px;
     width: 280px;
-    vertical-align: top;
+
 }
 
 .services-box .content {
     background-color: #F2F2F2;
     padding: 0 20px 30px 20px;
     height: 40%;
+   
 }
-
 
 .services-box h3 {
     color: #666666;
@@ -303,19 +282,21 @@ section #about {
     background-color: #F2F2F2;    
 }
 
+.services-big-col h3,
+.services-big-col button {
+    color: #666666;
+}
+
 .services-big-col h3 {
     font-size: 22px;
     padding-top: 30px;
     padding-bottom: 10px;
-    color: #666666;
 }
 
 .services-big-col button {
     font-size: 18px;
-    color: #666666;
     background-color: #fff;
     border: 1px solid lightgray;
-    
     border-radius: 7px;
     margin-top: 20px;
     padding: 10px 25px;
@@ -359,7 +340,6 @@ section #about {
 }
 
 .contact-form {
-   
     padding-top: 20px;
     display: flex;
     justify-content: center;
