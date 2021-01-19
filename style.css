@@ -3,165 +3,124 @@
     padding: 0;
 }
 
-html {
-    box-sizing: border-box;
+.banner {
+    background-image: url(/img/jeremy-bishop-tTY4nthc2IY-unsplash.jpg);
+width: 100%;
+background-size: cover;
+height: 95vh;
+
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+.top-bar {
+    background-color: #000;
     display: flex;
+    width: 100%;
+    height: auto;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   }
 
-   .navigation {
-       display: flex;
-   }
+.menu {
+    flex: 3px;
 
-   .navigation li {
-    justify-content: flex-end
-   }
+}
 
-/*main {
-    flex: 1;
+.menu ul {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-li {
     list-style-type: none;
-    padding: 10px;
+    margin-top: 30px;
+    flex-flow: row wrap;
 }
 
-ul {
-    margin: 0;
+.menu ul li {
+    flex: 1;
+    text-align: center;
 }
 
-footer {
-    padding: 10px;
-}*/
+.menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Banner */
+
+.banner-text {
+    display: flex;
+    padding: 15% 0;
+}
+
+.banner-text-items {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.banner-text-items h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.banner-text-items p {
+    font-size: 18px;
+}
 
 
+/*Section - About */
 
-
-/*ul li{
+section#about {
+    height: auto;
+}
+.about-wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    /*justify-content: center;
-}*/
+    justify-content: space-between;
+    
+ }
 
-/*nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #383E4C;
-}
+ .card {
+    flex: 0 1 32%;
+ }
 
-nav li {
-    list-style-type: none;
-    padding: 20px;
-    font-size: 24px;
-}
-
-nav li a {
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #646D7C;
-    padding: 10px 30px;
-}
-
-nav li a:hover {
-    background-color: #49505F;
-}
-
-/*Home Section */
- .homepage-img {
-    background-image: url(/img/jeremy-bishop-tTY4nthc2IY-unsplash.jpg);
-    max-width: 100%;
-    max-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 95vh;
-    z-index: -1;
-}
-
-h1 {
-    font-size: 60px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    padding-top: 260px;
-}
-
-#home h3 {
-    font-size: 30px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-}
-
-
-/*About Section */
-
-.about-container {
-    padding: 100px;
-}
-
-.about-wrapper {
-    width: 100%;
-    columns: 3;
-    column-gap: 50px;
-}
-
-.about-wrapper .about-box {
-    width: 100%;
-    padding-bottom: 20px;
-}
-
-.about-wrapper .about-box img {
-    max-width: 100%;
+ .card img,
+ .extra-cards img {
     display: block;
-}
+	border: 0;
+	width: 100%;
+	height: auto;
+ }
 
-#about .content {
-    padding: 15px;
+
+ .about-wrapper .card,
+ .extra-cards {
+    /*padding: 15px;*/
     background-color: #F2F2F2;
 }
 
-#about .about-box:nth-child(1) h4 {
+
+#about .about-wrapper .card:nth-child(1) h4 {
     color: #178A27;
 }
 
-#about .about-box:nth-child(2) h4 {
+#about .about-wrapper .card:nth-child(2) h4 {
     color: #1686C1;
 }
 
-#about .about-box:nth-child(3) h4 {
+#about .about-wrapper .card:nth-child(3) h4 {
     color: #8F8F8F;
 }
 
-#about .content h4 {
+.about-wrapper .card h4 {
     font-size: 24px;
     padding-bottom: 15px;
 }
 
-#about .content p {
+.about-wrapper .card p {
     padding-bottom: 20px;
 }
 
-#about .content button {
+.about-wrapper button {
     font-size: 22px;
     display: block;
     margin: 0 auto;
@@ -171,48 +130,38 @@ h1 {
     border: none;
 }
 
-#about .content button:hover {
+.about-wrapper button:hover {
     cursor: pointer;
     opacity: 0.7;
     transition: 0.3s;
 }
 
-#about .about-box:nth-child(1) button {
+
+#about .about-wrapper .card:nth-child(1) button {
+
     background-color: #178A27;
 }
 
-#about .about-box:nth-child(2) button {
+#about .about-wrapper .card:nth-child(2) button {
     background-color: #1686C1;
 }
 
-#about .about-box:nth-child(3) button {
+#about .about-wrapper .card:nth-child(3) button {
     background-color: #852406;
 }
 
-.extra-info {
-    width: 100%;
-    columns: 2;
-    display: block;
-    margin: 0 auto;
-    padding-top: 60px;
-    column-gap: 30px;
+ .extra-cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   flex: 0 1 48%;
 }
 
-.extra-info .extra-box {
-    width: 100%;
-}
-
-.extra-info .extra-box img {
-    max-width: 100%;
-    display: block;
-}
-
-.extra-box .content h4 {
+.extra-cards h4 {
     color: #666666;
     text-align: center;
 }
 
-#about .extra-box .content button {
+.extra-cards button {
 
     font-size: 18px;
     color: #3f3e3e;
@@ -223,90 +172,55 @@ h1 {
     padding: 10px 25px;
 }
 
-#about .extra-box .content button:hover {
+.extra-cards button:hover {
     background-color: lightgray;
     transition: none;
 }
 
-/*Service Section */
-
-.service-img {
-    background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 60vh;
-    z-index: -1;
-}
-
-.services-container {
-    padding: 60px;
-   
-}
 
 
+/*Services*/
 
-.service-text {
-
-    padding-top: 150px;
-    color: #fff;
-} 
-
-.service-text h2 {
-    font-size: 50px;
+.service-wrapper {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*margin: 85px;*/
+ }
 
-}
+ .service-card {
+    flex: 0 1 24%;
+ }
 
-.service-text p {
-    font-size: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
-.services-wrapper {
-    columns: 4;
-    display: flex;
-    width: 100%; 
-}
-
-.services-box {
-    padding: 16px;
-
-}
-
-
-.services-wrapper .services-box img {
+ .service-card img {
     display: block;
-    height: 280px;
-    width: 280px;
+	border: 0;
+	width: 100%;
+	height: auto;
+ }
 
-}
 
-.services-box .content {
+
+
+.service-card {
     background-color: #F2F2F2;
-    padding: 0 20px 30px 20px;
     height: 40%;
    
 }
 
-.services-box h3 {
+.service-card h3 {
     color: #666666;
     padding-top: 10px;
     text-align: center;
 }
 
-.services-box p {
+.service-card p {
     font-size: 17px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
-.services-box button {
+.service-card button {
     font-size: 18px;
     color: #666666;
     background-color: #fff;
@@ -317,32 +231,33 @@ h1 {
     padding: 10px 25px;
 }
 
-.services-big-col {
-    padding-top: 30px;
+.extra-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: #F2F2F2; 
+ }
+
+.extra-col img {
+    display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
 }
 
-.services-big-col img {
-   width: 100%;
-   display: block;
-}
-
-.services-big-col .content {
-    padding: 0 20px 30px 20px;
-    background-color: #F2F2F2;    
-}
-
-.services-big-col h3,
-.services-big-col button {
+.extra-col h3,
+.extra-col button {
     color: #666666;
 }
 
-.services-big-col h3 {
+.extra-col h3 {
     font-size: 22px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-.services-big-col button {
+.extra-col button {
     font-size: 18px;
     background-color: #fff;
     border: 1px solid lightgray;
@@ -351,24 +266,18 @@ h1 {
     padding: 10px 25px;
 }
 
+
+
+
 /*Contact*/
 
-#contact {
-    padding-bottom: 20px;
-}
-
-.contact-img {
+.contact-wrapper {
     background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 95vh;
-}
-
-.contact-text {
-
- padding-top: 150px;
- color: #fff;
+    height: 100vh;
+    /*padding-top: 150px;*/
 }
 
 .contact-text h2 {
@@ -379,96 +288,168 @@ h1 {
 }
 
 .contact-text p {
-    display: block;
-    margin: 0 auto;
-    text-align:center;
-    font-size: 22px;
-    opacity: 0.5;
-    padding: 17px;
-    width: 32em;
-    background-color: #9F9C9B;
-    border-radius: 5px;
-    color: #000000;
-    font-weight: bold;
-}
-
-.contact-form {
-    padding-top: 20px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 30px;
-
+    font-size: 22px;
+    /*text-align: center;*/
+    width: 50em;
+    padding-left: 50px;
 }
 
-input {
-    width: 85%;
-    background-color: #9F9C9B;
+.form-area {
+    display: flex;
+    background: rgba(0,0,0,0.8);
     border-radius: 5px;
-    font-size: 17px;
-    color: black;
-    padding: 7px 0 5px 10px;
-    margin: 5px 159px 5px 5px;
-    opacity: 0.5;
+    padding: 2em;
+    margin: 8em;
 }
 
 
-
-textarea {
-    background-color: #9F9C9B;
-    opacity: 0.5;
-    font-size: 14px;
-    border-radius: 5px;
+.message-area {
+    display: flex;
+    flex-direction: column;
+    order: 2;
 }
 
-::placeholder {
-    color: black;
-}
-
-
-
-input:focus,
-textarea:focus {
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-    outline-width: 0;
-}
-
-#contact button {
-    display: block;
-    margin: 0 auto;
-    font-size: 20px;
-    background-color: #262628;
+.message-area textarea {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
     color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    padding: 10px 30px;
+    padding: 15px;
 }
 
-#contact button:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: #262628;
+.details-area {
+    flex: 1;
+    order: 1;
+    margin-right: 3.9em;
 }
 
-footer {
+.details-area input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.details-area input, 
+.details-area button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.details-area button {
+    background: red;
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/*.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5% p;
+}
+
+.main1 {
+    flex: 1;
+    padding: 3%;
     text-align: center;
-    font-size: 14px;
-    font-style: italic;
-    padding: 10px;
-    border-top: 1px solid #EEEEEE;
+}*/
+
+/*Contact*/
+
+.contact-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
+.contact {
+    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
 
+.contact::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+}
 
+.contact-items h2 {
+color: #fff;
+font-size: 40px;
+margin-bottom: 18px;
+}
 
+.contact-items input[type="text"] {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 50%;
+}
 
+.contact-items textarea {
+    border-radius: 10px;
+    height: 150px;
+    padding: 15px;
+    width: 50%;
+}
 
-@media screen and (min-width: 1024px) {
-    nav {
-        width: 50%;
+.contact-items button {
+    background-color: #da4b29;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+margin-top: 25px;
+padding: 15px 80px;
+text-transform: uppercase;
+border: none;
+}
+
+@media all and (max-width:500px) {
+    .top-bar {
+        flex-direction: column;
+        text-align: center;
     }
-   nav ul {
-       width: 50vw;
-   }
+
+    .logo {
+        padding: 18px 0 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        margin-top: 0;
+        }
+
+        .menu ul li {
+            padding: 5px;
+        }
+
+        .banner-text-items {
+            width: 100%;
+        }
+
+        .banner-text-items h2 {
+            font-size: 1.5em;
+        }
+
+        .main-content {
+            flex-direction: column;
+        }
 }
+
 
