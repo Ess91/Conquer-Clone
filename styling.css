@@ -151,9 +151,37 @@ section#service {
 	height: auto;
  }
 
+ .extra-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+ }
+
+.extra-col img {
+    display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
 
 
 
+
+/*.contact-img {
+    background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+}
+
+.contact-text h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}*/
 
 
 
@@ -164,21 +192,136 @@ section#service {
 
 /*Contact*/
 
-.contact-items {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
+section#contact {
+    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
+    width: 100%;
+background-size: cover;
+background-position: center center;
+height: 100vh;
 }
 
-.contact {
+.form-area {
+    display: flex;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    /*padding: 1.9em;*/
+    padding-top: 30px;
+}
+
+.message-area {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.message-area textarea {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15px;
+}
+
+.details-area {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.details-area input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.details-area input, 
+.details-area button {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.details-area button {
+    background: red;
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+/*section#contact {
+    height: auto;
+}*/
+
+/*.contact-img {
+    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
+    width: 100%;
+background-size: cover;
+height: 100vh;
+}*/
+
+
+
+.contact-items {
+    display: flex;
+   /* align-items: center;*/
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+        padding-top: 100px; 
+     padding-left: 200px;
+}
+
+.contact-text p {
+    color: #fff;
+    text-align: center;
+    width: 50em;
+
+    display: block;
+    margin: 0 auto;
+    
+    font-size: 22px;
+    opacity: 0.5;
+    padding: 17px;
+    width: 32em;
+    background-color: #9F9C9B;
+    border-radius: 5px;
+    font-weight: bold;
+
+    /*padding-bottom: 20px;*/
+}
+
+/*.contact {
     background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
     padding: 80px 0;
     position: relative;
     z-index: 1;
+}*/
+
+/*.contact-items input[type="text"] {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 20%;
 }
 
-.contact::before {
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+}
+
+
+/*.contact::before {
     position: absolute;
     content: '';
     height: 100%;
@@ -218,7 +361,7 @@ margin-top: 25px;
 padding: 15px 80px;
 text-transform: uppercase;
 border: none;
-}
+}*/
 
 @media all and (max-width: 768px) {
     .top-bar {
