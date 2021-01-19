@@ -288,11 +288,11 @@ section#about {
 }
 
 .contact-text p {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;*/
     font-size: 22px;
-    /*text-align: center;*/
+    text-align: center;
     width: 50em;
     padding-left: 10px;
 }
