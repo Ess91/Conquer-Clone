@@ -186,7 +186,7 @@ section#about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*margin: 85px;*/
+    margin: 70px;
  }
 
  .service-card {
