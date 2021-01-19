@@ -205,7 +205,7 @@ height: 100vh;
     background: rgba(0,0,0,0.8);
     border-radius: 5px;
     /*padding: 1.9em;*/
-    padding-top: 30px;
+   margin-top: 50px;
 }
 
 .message-area {
