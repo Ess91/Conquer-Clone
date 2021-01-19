@@ -9,7 +9,6 @@ width: 100%;
 background-size: cover;
 height: 95vh;
 
-
 }
 
 .top-bar {
@@ -19,13 +18,6 @@ height: 95vh;
     height: auto;
 }
 
-
-
-/*section {
-    width: auto;
-}*/
-
-/*Navigation*/
 
 .menu {
     flex: 3px;
@@ -49,8 +41,6 @@ height: 95vh;
     font-size: 20px;
     text-decoration: none;
 }
-
-
 
 /* Banner */
 
@@ -77,18 +67,15 @@ height: 95vh;
 }
 
 
+/*Section - About */
 
-/*section#about {
+section#about {
     height: auto;
-    /*padding: 85px;
-  
-}*/
-
+}
 .about-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 80px;
     
  }
 
@@ -105,38 +92,18 @@ height: 95vh;
  }
 
  .extra-cards {
-     padding-top: 20px;
-     padding-bottom: 20px;
-    flex: 0 1 48%;
- }
-
- /*Services*/
-
- /*section#service {
-     height: auto;
-     padding: 20px;
- }*/
-
-section#service {
-    height: auto;
-   /* padding: 85px;*/
-  
+    padding-top: 20px;
+    padding-bottom: 20px;
+   flex: 0 1 48%;
 }
 
- /*.service-banner {
-    background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 60vh;
-    z-index: -1;
- }*/
+/*Services*/
 
- .service-wrapper {
+.service-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*padding: 85px;*/
+    margin: 85px;
  }
 
  .service-card {
@@ -166,13 +133,15 @@ section#service {
 
 
 
+/*Contact*/
 
-/*.contact-img {
+.contact-wrapper {
     background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
+    /*padding-top: 150px;*/
 }
 
 .contact-text h2 {
@@ -180,35 +149,26 @@ section#service {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-}*/
+}
 
-
-
-
-
-
-
-
-/*Contact*/
-
-/*section#contact {
-    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
-    width: 100%;
-background-size: cover;
-background-position: center center;
-height: 100vh;
-}*/
+.contact-text p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 22px;
+    /*text-align: center;*/
+    width: 50em;
+    padding-left: 50px;
+}
 
 .form-area {
     display: flex;
     background: rgba(0,0,0,0.8);
     border-radius: 5px;
     padding: 2em;
-    /*margin: 85px;*/
-    /*margin: 85px 85px 85px 100px;*/
-    width: 50em;
-    
+    margin: 8em;
 }
+
 
 .message-area {
     display: flex;
@@ -254,72 +214,35 @@ height: 100vh;
 }
 
 
+/*.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5% p;
+}
 
-/*section#contact {
-    height: auto;
+.main1 {
+    flex: 1;
+    padding: 3%;
+    text-align: center;
 }*/
 
-/*.contact-img {
-    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
-    width: 100%;
-background-size: cover;
-height: 100vh;
-}*/
-
-
+/*Contact*/
 
 .contact-items {
     display: flex;
-   /* align-items: center;*/
+    align-items: center;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
-        padding-top: 100px; 
-     padding-left: 200px;
+
 }
 
-.contact-text p {
-    color: #fff;
-    text-align: center;
-    width: 50em;
-
-    display: block;
-    margin: 0 auto;
-    
-    font-size: 22px;
-    opacity: 0.5;
-    padding: 17px;
-    width: 32em;
-    background-color: #9F9C9B;
-    border-radius: 5px;
-    font-weight: bold;
-
-    /*padding-bottom: 20px;*/
-}
-
-/*.contact {
+.contact {
     background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
     padding: 80px 0;
     position: relative;
     z-index: 1;
-}*/
-
-/*.contact-items input[type="text"] {
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 15px;
-    width: 20%;
 }
 
-.message {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-}
-
-
-/*.contact::before {
+.contact::before {
     position: absolute;
     content: '';
     height: 100%;
@@ -359,14 +282,17 @@ margin-top: 25px;
 padding: 15px 80px;
 text-transform: uppercase;
 border: none;
-}*/
+}
 
-@media all and (max-width: 768px) {
+@media all and (max-width:500px) {
     .top-bar {
         flex-direction: column;
         text-align: center;
     }
 
+    .logo {
+        padding: 18px 0 0;
+    }
 
     .menu ul {
         flex-direction: column;
@@ -388,10 +314,6 @@ border: none;
         .main-content {
             flex-direction: column;
         }
-
-      
-
-        
 }
 
 
