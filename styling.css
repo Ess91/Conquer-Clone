@@ -78,22 +78,11 @@ height: 95vh;
     font-size: 18px;
 }
 
-/*.main-content {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 5%;
-}
-
-.main1 {
-    flex: 1;
-    padding: 3%;
-    text-align: center;
-}*/
 
 
 section#about {
     height: auto;
-    padding: 20px;
+    padding: 85px;
   
 }
 
@@ -124,17 +113,35 @@ section#about {
 
  /*Services*/
 
- section#service {
+ /*section#service {
      height: auto;
- }
+     padding: 20px;
+ }*/
 
- .service-banner {
+section#service {
+    height: auto;
+   /* padding: 85px;*/
+  
+}
+
+ /*.service-banner {
     background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
     z-index: -1;
+ }*/
+
+ .service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 85px;
+ }
+
+ .service-card {
+    flex: 0 1 24%;
  }
 
  .service-card img {
@@ -144,11 +151,6 @@ section#about {
 	height: auto;
  }
 
- ..service-wrapper .service-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- }
 
 
 
@@ -156,120 +158,9 @@ section#about {
 
 
 
-/*About Section */
 
-/*.about-container {
-    padding: 100px;
-}
 
-.about-wrapper {
-    width: 100%;
-    columns: 3;
-    column-gap: 50px;
-}
 
-.about-wrapper .about-box {
-    width: auto;
-    padding-bottom: 20px;
-}
-
-.about-wrapper .about-box img {
-    max-width: 100%;
-    display: block;
-}
-
-#about .content {
-    padding: 15px;
-    background-color: #F2F2F2;
-}
-
-#about .about-box:nth-child(1) h4 {
-    color: #178A27;
-}
-
-#about .about-box:nth-child(2) h4 {
-    color: #1686C1;
-}
-
-#about .about-box:nth-child(3) h4 {
-    color: #8F8F8F;
-}
-
-#about .content h4 {
-    font-size: 24px;
-    padding-bottom: 15px;
-}
-
-#about .content p {
-    padding-bottom: 20px;
-}
-
-#about .content button {
-    font-size: 22px;
-    display: block;
-    margin: 0 auto;
-    padding: 8px 20px;
-    border-radius: 5px;
-    color: #fff;
-    border: none;
-}
-
-#about .content button:hover {
-    cursor: pointer;
-    opacity: 0.7;
-    transition: 0.3s;
-}
-
-#about .about-box:nth-child(1) button {
-    background-color: #178A27;
-}
-
-#about .about-box:nth-child(2) button {
-    background-color: #1686C1;
-}
-
-#about .about-box:nth-child(3) button {
-    background-color: #852406;
-}
-
-.extra-info {
-    width: auto;
-    columns: 2;
-    display: block;
-    margin: 0 auto;
-    padding-top: 60px;
-    column-gap: 30px;
-}
-
-.extra-info .extra-box {
-    width: 100%;
-}
-
-.extra-info .extra-box img {
-    max-width: 100%;
-    display: block;
-}
-
-.extra-box .content h4 {
-    color: #666666;
-    text-align: center;
-}
-
-#about .extra-box .content button {
-
-    font-size: 18px;
-    color: #3f3e3e;
-    background-color: #fff;
-    border: 1px solid lightgray;
-    display: flex;
-    border-radius: 7px;
-    padding: 10px 25px;
-}
-
-#about .extra-box .content button:hover {
-    background-color: lightgray;
-    transition: none;
-}
 
 /*Contact*/
 
