@@ -200,6 +200,29 @@ section#about {
     height: 60vh;
 }
 
+.service-banner h3 {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    padding-top: 14%;
+}
+
+.service-banner p {
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    width: 50em;
+    position: absolute;
+    left: 22%;
+    padding-top: 20%;
+    line-height: 1.6;
+}
+
 .service-wrapper {
     display: flex;
     flex-wrap: wrap;
