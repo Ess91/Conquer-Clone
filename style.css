@@ -23,21 +23,16 @@
   box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 15px;
+
 }
 
-/*.menu {
-    flex: 3px;
-
-}*/
 
 .menu ul {
     display: flex;
     list-style-type: none;
-    /*margin-top: 30px;*/
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
     margin: 20px;
 }
 
@@ -72,13 +67,15 @@
 }
 
 .banner-text-items h1 {
-    font-size: 2.7em;
-    margin-bottom: 20px;
+    font-size: 5em;
+    padding-top: 100px;
+    padding-left: 150px;
     text-transform: uppercase;
 }
 
 .banner-text-items h2 {
-    font-size: 30px;
+    font-size: 2em;
+    padding-left: 170px;
 }
 
 /*Section - About */
@@ -106,7 +103,7 @@ section#about {
 }
 
 .about-wrapper .card, .extra-cards {
-    /*padding: 15px;*/
+   
     background-color: #F2F2F2;
     padding-bottom: 20px;
 }
@@ -191,7 +188,7 @@ section#about {
 
 /*Services*/
 
-.service-wrapper {
+/*.service-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -262,8 +259,7 @@ section#about {
 
 .extra-col h3 {
     font-size: 22px;
-    /*padding-top: 30px;
-    padding-bottom: 10px;*/
+    
 }
 
 .extra-col button {
@@ -285,13 +281,13 @@ section#about {
 
 /*Contact*/
 
-.contact-wrapper {
+/*.contact-wrapper {
     background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    /*padding-top: 150px;*/
+    
 }
 
 .contact-text h2 {
@@ -299,7 +295,6 @@ section#about {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    /*padding-bottom: 20px;*/
     padding-top: 70px;
 }
 
@@ -377,7 +372,7 @@ section#about {
 
 /*Contact*/
 
-.contact-items {
+/*.contact-items {
     display: flex;
     align-items: center;
     flex-direction: column;
