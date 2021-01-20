@@ -191,6 +191,7 @@ section#about {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 70px;
+  
  }
 
  .service-card {
@@ -204,12 +205,10 @@ section#about {
 	height: auto;
  }
 
-
-
-
 .service-card {
     background-color: #F2F2F2;
     height: 40%;
+    padding-bottom: 20px;
    
 }
 
@@ -221,8 +220,7 @@ section#about {
 
 .service-card p {
     font-size: 17px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .service-card button {
@@ -240,7 +238,7 @@ section#about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 20px;
+    margin-top: 40px;
     background-color: #F2F2F2; 
  }
 
@@ -256,11 +254,18 @@ section#about {
     color: #666666;
 }
 
+.extra-col p,
+.extra-col h3 {
+    padding: 30px;
+}
+
 .extra-col h3 {
     font-size: 22px;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    /*padding-top: 30px;
+    padding-bottom: 10px;*/
 }
+
+
 
 .extra-col button {
     font-size: 18px;
@@ -269,6 +274,16 @@ section#about {
     border-radius: 7px;
     margin-top: 20px;
     padding: 10px 25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.extra-col button:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+    color: #1e1675;
+
+    
 }
 
 
