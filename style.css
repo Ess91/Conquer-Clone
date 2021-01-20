@@ -200,7 +200,7 @@ section#about {
     height: 60vh;
 }
 
-.service-banner h3 {
+.service-content h3 {
     display: block;
     margin: 0 auto;
     color: #fff;
@@ -210,7 +210,7 @@ section#about {
     padding-top: 14%;
 }
 
-.service-banner p {
+.service-content p {
     color: #fff;
     display: block;
     margin: 0 auto;
@@ -269,7 +269,7 @@ section#about {
     padding: 10px 25px;
 }
 
-/*.extra-col {
+.extra-col {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -316,7 +316,7 @@ section#about {
 
 /*Contact*/
 
-/*.contact-wrapper {
+.contact-wrapper {
     background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -403,63 +403,6 @@ section#about {
     cursor: pointer;
     background-color: #fff;
     color: #262628;
-}
-
-/*Contact*/
-
-/*.contact-items {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contact {
-    background-image: url(/img/conscious-design-_eCZjlVE2zI-unsplash.jpg);
-    padding: 80px 0;
-    position: relative;
-    z-index: 1;
-}
-
-.contact::before {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-}
-
-.contact-items h2 {
-    color: #fff;
-    font-size: 40px;
-    margin-bottom: 18px;
-}
-
-.contact-items input[type="text"] {
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 15px;
-    width: 50%;
-}
-
-.contact-items textarea {
-    border-radius: 10px;
-    height: 150px;
-    padding: 15px;
-    width: 50%;
-}
-
-.contact-items button {
-    background-color: #da4b29;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    margin-top: 25px;
-    padding: 15px 80px;
-    text-transform: uppercase;
-    border: none;
 }
 
 @media all and (max-width:500px) {
