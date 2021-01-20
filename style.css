@@ -38,10 +38,10 @@ height: 95vh;
     list-style-type: none;
     
     /*margin-top: 30px;*/
-    flex-flow: row wrap;
+    /*flex-flow: row wrap;*/
 
-    /*align-items: center;
-    justify-content: center;*/
+    align-items: center;
+    justify-content: center;
 
     margin: 20px;
 }
@@ -52,7 +52,7 @@ height: 95vh;
 
 .menu ul li a {
     color: #fff;
-    font-size: 18px;
+    font-size: 1em;
     text-decoration: none;
     border: 1px solid #646D7C;
     padding: 15px 30px;
@@ -78,7 +78,7 @@ background-color: #49505F;
 }
 
 .banner-text-items h1 {
-    font-size: 50px;
+    font-size: 2.7em;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
