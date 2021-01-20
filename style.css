@@ -5,10 +5,9 @@
 
 .banner {
     background-image: url(/img/jeremy-bishop-tTY4nthc2IY-unsplash.jpg);
-width: 100%;
-background-size: cover;
-height: 95vh;
-
+    width: 100%;
+    background-size: cover;
+    height: 95vh;
 }
 
 .top-bar {
@@ -18,31 +17,27 @@ height: 95vh;
     height: auto;*/
 
     width: 100%;
-  height: 50px;
-  background-color: #383E4C;
-  position: fixed;
+    height: 50px;
+    background-color: #383E4C;
+    position: fixed;
   box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
-  display: flex;
-  align-items: center;
-  padding: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
 }
 
-
-.menu {
+/*.menu {
     flex: 3px;
 
-}
+}*/
 
 .menu ul {
     display: flex;
     list-style-type: none;
-    
     /*margin-top: 30px;*/
-    /*flex-flow: row wrap;*/
-
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-
     margin: 20px;
 }
 
@@ -59,9 +54,8 @@ height: 95vh;
 }
 
 .menu ul li a:hover {
-background-color: #49505F;
+    background-color: #49505F;
 }
-
 
 /* Banner */
 
@@ -87,40 +81,35 @@ background-color: #49505F;
     font-size: 30px;
 }
 
-
 /*Section - About */
 
 section#about {
     height: auto;
 }
+
 .about-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 70px;
-    
- }
+}
 
- .card {
+.card {
     flex: 0 1 32%;
- }
+}
 
- .card img,
- .extra-cards img {
+.card img, .extra-cards img {
     display: block;
-	border: 0;
-	width: 100%;
-	height: auto;
- }
+    border: 0;
+    width: 100%;
+    height: auto;
+}
 
-
- .about-wrapper .card,
- .extra-cards {
+.about-wrapper .card, .extra-cards {
     /*padding: 15px;*/
     background-color: #F2F2F2;
     padding-bottom: 20px;
 }
-
 
 #about .about-wrapper .card:nth-child(1) h4 {
     color: #178A27;
@@ -162,9 +151,7 @@ section#about {
     transition: 0.3s;
 }
 
-
 #about .about-wrapper .card:nth-child(1) button {
-
     background-color: #178A27;
 }
 
@@ -176,10 +163,10 @@ section#about {
     background-color: #852406;
 }
 
- .extra-cards {
+.extra-cards {
     margin-top: 60px;
     padding-bottom: 20px;
-   flex: 0 1 48%;
+    flex: 0 1 48%;
 }
 
 .extra-cards h4 {
@@ -188,7 +175,6 @@ section#about {
 }
 
 .extra-cards button {
-
     font-size: 18px;
     color: #3f3e3e;
     background-color: #fff;
@@ -203,8 +189,6 @@ section#about {
     transition: none;
 }
 
-
-
 /*Services*/
 
 .service-wrapper {
@@ -212,25 +196,23 @@ section#about {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 70px;
-  
- }
+}
 
- .service-card {
+.service-card {
     flex: 0 1 24%;
- }
+}
 
- .service-card img {
+.service-card img {
     display: block;
-	border: 0;
-	width: 100%;
-	height: auto;
- }
+    border: 0;
+    width: 100%;
+    height: auto;
+}
 
 .service-card {
     background-color: #F2F2F2;
     height: 40%;
     padding-bottom: 20px;
-   
 }
 
 .service-card h3 {
@@ -249,7 +231,7 @@ section#about {
     color: #666666;
     background-color: #fff;
     border: 1px solid lightgray;
-    display: block; 
+    display: block;
     margin: 0 auto;
     border-radius: 7px;
     padding: 10px 25px;
@@ -260,23 +242,21 @@ section#about {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
-    background-color: #F2F2F2; 
- }
+    background-color: #F2F2F2;
+}
 
 .extra-col img {
     display: block;
-	border: 0;
-	width: 100%;
-	height: auto;
+    border: 0;
+    width: 100%;
+    height: auto;
 }
 
-.extra-col h3,
-.extra-col button {
+.extra-col h3, .extra-col button {
     color: #666666;
 }
 
-.extra-col p,
-.extra-col h3 {
+.extra-col p, .extra-col h3 {
     padding: 30px;
 }
 
@@ -285,8 +265,6 @@ section#about {
     /*padding-top: 30px;
     padding-bottom: 10px;*/
 }
-
-
 
 .extra-col button {
     font-size: 18px;
@@ -303,12 +281,7 @@ section#about {
     cursor: pointer;
     background-color: #eeeeee;
     color: #1e1675;
-
-    
 }
-
-
-
 
 /*Contact*/
 
@@ -342,7 +315,7 @@ section#about {
 
 .form-area {
     display: flex;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 2em;
     width: 60%;
@@ -352,7 +325,6 @@ section#about {
 ::placeholder {
     color: #fff;
 }
-
 
 .message-area {
     display: flex;
@@ -381,8 +353,7 @@ section#about {
     border-radius: 5px;
 }
 
-.details-area input, 
-.details-area button {
+.details-area input, .details-area button {
     padding: 1em;
     margin-bottom: 1em;
 }
@@ -401,10 +372,8 @@ section#about {
 .details-area button:hover {
     cursor: pointer;
     background-color: #fff;
-    color: #262628; 
+    color: #262628;
 }
-
-
 
 /*Contact*/
 
@@ -412,7 +381,6 @@ section#about {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .contact {
@@ -429,14 +397,14 @@ section#about {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
 .contact-items h2 {
-color: #fff;
-font-size: 40px;
-margin-bottom: 18px;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 18px;
 }
 
 .contact-items input[type="text"] {
@@ -458,10 +426,10 @@ margin-bottom: 18px;
     color: #fff;
     display: block;
     font-size: 20px;
-margin-top: 25px;
-padding: 15px 80px;
-text-transform: uppercase;
-border: none;
+    margin-top: 25px;
+    padding: 15px 80px;
+    text-transform: uppercase;
+    border: none;
 }
 
 @media all and (max-width:500px) {
@@ -469,31 +437,23 @@ border: none;
         flex-direction: column;
         text-align: center;
     }
-
     .logo {
         padding: 18px 0 0;
     }
-
     .menu ul {
         flex-direction: column;
         margin-top: 0;
-        }
-
-        .menu ul li {
-            padding: 5px;
-        }
-
-        .banner-text-items {
-            width: 100%;
-        }
-
-        .banner-text-items h2 {
-            font-size: 1.5em;
-        }
-
-        .main-content {
-            flex-direction: column;
-        }
+    }
+    .menu ul li {
+        padding: 5px;
+    }
+    .banner-text-items {
+        width: 100%;
+    }
+    .banner-text-items h2 {
+        font-size: 1.5em;
+    }
+    .main-content {
+        flex-direction: column;
+    }
 }
-
-
