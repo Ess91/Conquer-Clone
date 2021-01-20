@@ -169,6 +169,11 @@ section#about {
 .extra-cards h4 {
     color: #666666;
     text-align: center;
+    padding: 5px;
+}
+
+.extra-cards p {
+    padding: 10px;
 }
 
 .extra-cards button {
@@ -188,7 +193,14 @@ section#about {
 
 /*Services*/
 
-/*.service-wrapper {
+.service-banner {
+    background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 60vh;
+}
+
+.service-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -234,7 +246,7 @@ section#about {
     padding: 10px 25px;
 }
 
-.extra-col {
+/*.extra-col {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
