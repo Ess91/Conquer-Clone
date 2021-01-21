@@ -416,20 +416,16 @@ section#about {
     color: #262628;
 }
 
- .fas.fa-angle-up{
+ .fas.fa-chevron-circle-up{
     /*display: none;*/
     position: fixed;
-    /*bottom: 20px;
-    right: 20px;*/
+    
     z-index: 99;
-    font-size: 50px;
-    border: none;
-    outline: none;
-    background-color: red;
-    color: black;
+    font-size: 40px;
+    color: #000;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
+   right: 2px; 
+    bottom: 20px;
 }
 
 @media all and (max-width:500px) {
