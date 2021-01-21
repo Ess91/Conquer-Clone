@@ -95,6 +95,7 @@ section#about {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 60px;
+    padding-top: 50px;
 }
 
 .card {
@@ -210,26 +211,26 @@ section#about {
 
 .service-banner-text {
     display: flex;
-    padding: 15% 0;
+    padding: 10% 0;
 }
 
 .service-banner-text-items {
     color: #fff;
     margin: auto;
     text-align: center;
-    width: 50%;
+    /*width: 50%;*/
+    /*padding-top: 1%;*/
 }
 
 .service-banner-text-items h3 {
     font-size: 2em;
-    padding-top: 100px;
-    padding-left: 150px;
+    
     text-transform: uppercase;
 }
 
-.banner-text-items h2 {
-    font-size: 2em;
-    padding-left: 170px;
+.service-banner-text-items p {
+    font-size: 15px;
+    width: 50em;
 }
 
 
@@ -341,7 +342,7 @@ section#about {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    padding-top: 20%;;
+    padding-top: 7%;
 }
 
 .contact-text p {
