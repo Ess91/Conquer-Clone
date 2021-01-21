@@ -422,16 +422,13 @@ button.btn {
 }
  
  .btn {
-    /*visibility: hidden;*/
     position: fixed;
-    
     z-index: 99;
     font-size: 40px;
-    color: #000;
+    color: #262628;
     cursor: pointer;
    right: 2px; 
     bottom: 20px;
-
     transition: all 300ms;
 }
 
@@ -444,12 +441,7 @@ button.btn {
     opacity: 0;
 }
 
-/*.btn:active {
-   visibility: visible;
-    color:red;
-    border: none;
-    
-}*/
+
 
 @media all and (max-width:500px) {
     .top-bar {

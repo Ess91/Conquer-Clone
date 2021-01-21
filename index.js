@@ -9,8 +9,9 @@ a.forEach(element => {
     });
 });
 
+const buttonToTop = document.querySelector('.btn');
 
-const btnToTop = () => {
+const goToTop = () => {
     scrollTo(top);
   };
   
@@ -21,23 +22,12 @@ const btnToTop = () => {
     ) {
       buttonToTop.classList.remove('btn-hidden');
     } else {
-      buttonToTop.classList.add('button-to-top_hidden');
+      buttonToTop.classList.add('btn-hidden');
     }
   };
   
   buttonToTop.addEventListener('click', goToTop);
   
-  window.addEventListener('scroll', showToTopButton);
+  window.addEventListener('scroll', showTopButton);
 
 
-//const button = document.querySelector('.btn');
-
-//button.addEventListener('click', function (){
-    //window.scrollTo(0,0)
-
-  //  window.scrollTo({
-    //    top: 0,
-      //  left: 0,
-       // behavior: "smooth"
-   // });
-//});
