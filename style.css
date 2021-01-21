@@ -10,14 +10,10 @@
     width: 100%;
     background-size: cover;
     height: 95vh;
-
-
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 
 .banner-text {
     display: flex;
@@ -43,24 +39,17 @@
     padding-left: 170px;
 }
 
-
 .top-bar {
-
-
     width: 100%;
     height: 50px;
     background-color: #383E4C;
     position: fixed;
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
-
 }
-
-
-
 
 .menu ul {
     display: flex;
@@ -85,16 +74,11 @@
     background-color: #49505F;
 }
 
-
 a.active {
     background-color: #49505F;
 }
 
 /*Section - About */
-
-section#about {
-    height: auto;
-}
 
 .about-wrapper {
     display: flex;
@@ -116,7 +100,6 @@ section#about {
 }
 
 .about-wrapper .card, .extra-cards {
-   
     background-color: #F2F2F2;
     padding-bottom: 20px;
 }
@@ -134,15 +117,12 @@ section#about {
 }
 
 .about-wrapper .card h4 {
-    padding-top: 20px;
-    padding-left: 20px;
     font-size: 24px;
-    padding-bottom: 15px;
+    padding: 20px 0 15px 20px;
 }
 
 .about-wrapper .card p {
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 0 0 20px 20px;
 }
 
 .about-wrapper button {
@@ -212,12 +192,9 @@ section#about {
     background-size: cover;
     height: 60vh;
     background-repeat: no-repeat;
-
     background-attachment: fixed;
     background-position: center;
-    
 }
-
 
 .service-banner-text {
     display: flex;
@@ -228,13 +205,10 @@ section#about {
     color: #fff;
     margin: auto;
     text-align: center;
-    /*width: 50%;*/
-    /*padding-top: 1%;*/
 }
 
 .service-banner-text-items h3 {
     font-size: 2em;
-    
     text-transform: uppercase;
 }
 
@@ -242,8 +216,6 @@ section#about {
     font-size: 15px;
     width: 50em;
 }
-
-
 
 .service-wrapper {
     display: flex;
@@ -265,7 +237,6 @@ section#about {
 
 .service-card {
     background-color: #F2F2F2;
-   
     padding-bottom: 20px;
 }
 
@@ -310,13 +281,14 @@ section#about {
     color: #666666;
 }
 
-.extra-col p, .extra-col h3 {
-    padding: 30px;
+.extra-col h3 {
+    padding: 20px 30px;
+    font-size: 22px;
 }
 
-.extra-col h3 {
-    font-size: 22px;
-    
+.extra-col p {
+    margin: 10px;
+    padding: 0 20px;
 }
 
 .extra-col button {
@@ -344,17 +316,14 @@ section#about {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-
     background-attachment: fixed;
     background-position: center;
-   
-    
 }
 
 .contact-text h2 {
     color: #fff;
-    font-size: 35px;
     display: flex;
+    font-size: 35px;
     justify-content: center;
     padding-top: 8%;
 }
@@ -364,8 +333,7 @@ section#about {
     display: flex;
     font-size: 25px;
     text-align: center;
-    padding-left: 10rem;
-    padding-top: 2em;
+    padding: 2em 3em 0px 7em;
 }
 
 .form-area {
@@ -434,37 +402,33 @@ button.btn {
     background-color: transparent;
     border: none;
 }
- 
- .btn {
+
+.btn {
     position: fixed;
     z-index: 99;
     font-size: 40px;
     color: #262628;
     cursor: pointer;
-   right: 2px; 
+    right: 2px;
     bottom: 20px;
     transition: all 300ms;
 }
 
 .btn:hover {
     opacity: .95;
-  }
+}
 
 .btn-hidden {
     visibility: hidden;
     opacity: 0;
 }
 
-
-
 @media all and (max-width:500px) {
     .top-bar {
         flex-direction: column;
         text-align: center;
     }
-    .logo {
-        padding: 18px 0 0;
-    }
+   
     .menu ul {
         flex-direction: column;
         margin-top: 0;
