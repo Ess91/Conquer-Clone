@@ -417,7 +417,7 @@ section#about {
 }
 
  .fas.fa-chevron-circle-up{
-    /*display: none;*/
+    display: none;
     position: fixed;
     
     z-index: 99;

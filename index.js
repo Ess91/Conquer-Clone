@@ -10,6 +10,3 @@ a.forEach(element => {
 });
 
 
-
-
-
