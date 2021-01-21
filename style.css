@@ -416,8 +416,13 @@ section#about {
     color: #262628;
 }
 
- .fas.fa-chevron-circle-up{
-    display: none;
+button.btn {
+    background-color: transparent;
+    border: none;
+}
+ 
+ .btn {
+    /*visibility: hidden;*/
     position: fixed;
     
     z-index: 99;
@@ -426,7 +431,25 @@ section#about {
     cursor: pointer;
    right: 2px; 
     bottom: 20px;
+
+    transition: all 300ms;
 }
+
+.btn:hover {
+    opacity: .95;
+  }
+
+.btn-hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*.btn:active {
+   visibility: visible;
+    color:red;
+    border: none;
+    
+}*/
 
 @media all and (max-width:500px) {
     .top-bar {
