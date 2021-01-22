@@ -52,6 +52,22 @@
     padding: 15px;
 }
 
+label.nav-btn {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 26px;
+    display: none;
+}
+
+input#toggle {
+    position: absolute;
+    top: 26px;
+    right: 40px;
+
+    display: none;
+}
+
 /*#nav {
    
     position: absolute;
@@ -447,31 +463,54 @@ button.btn {
 /*Mobile*/
 
 @media screen and (max-width: 425px) {
-.top-bar {
-    background-color: transparent;
-    box-shadow: none;
-}
 
-.menu ul {
-    flex-direction: column;
-}
+    .top-bar {
+        background-color: transparent;
+        box-shadow: none;
+    }
 
-.menu ul li {
-    padding: 15px;
-    background-color: red;
-}
+    label.nav-btn {
+        display: block;
+        cursor: pointer;
+    }
 
-.menu ul li:nth-child(1) {
-    margin-top: 170px;
-}
+    .nav-wrapper {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
 
+    .menu ul {
+        flex-direction: column;
+    }
 
-.menu ul li a {
-    border: none;
+    .menu ul li {
+        padding: 15px;
+        background-color: red;
+    }
+
+    .menu ul li:nth-child(1) {
+        margin-top: 170px;
+    }
     
-    padding: 8px 140px;
-  
-}
+    
+    .menu ul li a {
+        border: none;
+        padding: 8px 110px;
+    }
+
+    input#toggle:checked + .nav-wrapper {
+            display: block;
+    }
+    
+
+
+
+
+
+
+
+
 
 
     
