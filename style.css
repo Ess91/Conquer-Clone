@@ -472,6 +472,7 @@ button.btn {
     label.nav-btn {
         display: block;
         cursor: pointer;
+        color: #fff;
     }
 
     .nav-wrapper {
@@ -486,7 +487,7 @@ button.btn {
 
     .menu ul li {
         padding: 15px;
-        background-color: red;
+        background-color: #a6a8ad;
     }
 
     .menu ul li:nth-child(1) {
@@ -515,20 +516,10 @@ button.btn {
 
     
     
-      
-   /* .top-bar,
-    .nav-wrapper {
-        visibility: hidden;
-    }
-    button.btn.btn-hidden {
-        visibility: hidden;
-    }*/
-    body {
-        background-color: red;
-    }
+    
 
    .about-wrapper  {
-/*display: block;*/
+
 flex-direction: column;
     }
 .card {
