@@ -545,7 +545,15 @@ flex-direction: column;
 }
 
 @media screen and (min-width: 521px) and (max-width: 787px) {
+    .service-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     
+    .service-card {
+        flex: 0 1 48%;
+    }
 }
 
 
