@@ -443,7 +443,7 @@ button.btn {
     position: fixed;
     z-index: 99;
     font-size: 40px;
-    color: #262628;
+    color: #0242e5;
     cursor: pointer;
     right: 2px;
     bottom: 20px;
@@ -459,8 +459,15 @@ button.btn {
     opacity: 0;
 }
 
-footer p {
-    font-size: 18px;
+footer {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #383E4C;
+}
+
+footer a {
+  color: #fff; 
+  text-decoration: none;
 }
 
 /*Responsive Design*/
@@ -478,7 +485,7 @@ footer p {
     label.nav-btn {
         display: block;
         cursor: pointer;
-        color: #fff;
+        color: #000;
     }
 
     .nav-wrapper {
