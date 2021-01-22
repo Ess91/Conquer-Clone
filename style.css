@@ -52,12 +52,12 @@
     padding: 15px;
 }
 
-#nav {
+/*#nav {
    
     position: absolute;
     top: 15px;
     right: 60px;
-}
+}*/
 .menu ul {
     display: flex;
     list-style-type: none;
@@ -79,6 +79,13 @@
 
 .menu ul li a:hover {
     background-color: #49505F;
+}
+
+.nav-btn i {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 
 a.active {
@@ -446,9 +453,7 @@ button.btn {
 }
 
 .menu ul {
- 
     flex-direction: column;
-   
 }
 
 .menu ul li {
