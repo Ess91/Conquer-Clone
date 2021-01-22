@@ -358,7 +358,7 @@ a.active {
 .contact-text h2 {
     color: #fff;
     display: flex;
-    font-size: 35px;
+    font-size: 2.56vw;
     justify-content: center;
     padding-top: 8%;
 }
@@ -368,7 +368,7 @@ a.active {
     display: flex;
     font-size: 1.83vw;
     text-align: center;
-    padding: 2em 3em 0px 7em;
+    padding: 1em 3em 0px 7em;
 }
 
 .form-area {
@@ -377,7 +377,7 @@ a.active {
     border-radius: 5px;
     padding: 2em;
     width: 60%;
-    margin: 5em auto;
+    margin: 2em auto;
 }
 
 ::placeholder {
@@ -392,10 +392,11 @@ a.active {
 
 .message-area textarea {
     flex: 1;
-    min-width: 18em;
     background: transparent;
     color: #fff;
     padding: 15px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .details-area {
@@ -424,7 +425,7 @@ a.active {
     border-radius: 15px;
     font-size: 16px;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .details-area button:hover {
@@ -458,15 +459,20 @@ button.btn {
     opacity: 0;
 }
 
+footer p {
+    font-size: 18px;
+}
+
 /*Responsive Design*/
 
 /*Mobile*/
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
 
     .top-bar {
         background-color: transparent;
         box-shadow: none;
+       
     }
 
     label.nav-btn {
@@ -505,19 +511,6 @@ button.btn {
     }
     
 
-
-
-
-
-
-
-
-
-
-    
-    
-    
-
    .about-wrapper  {
 
 flex-direction: column;
@@ -546,12 +539,13 @@ flex-direction: column;
 
 .form-area {
     flex-direction: column;
-    padding-bottom: 80px;
+    width: 60%;
 }
-.details-area button {
-    position: absolute;
-    bottom: -1226%;
+
 }
+
+@media screen and (min-width: 521px) and (max-width: 787px) {
+    
 }
 
 
