@@ -6,7 +6,7 @@
 /* Banner */
 
 .banner {
-    background-image: url(/img/jeremy-bishop-tTY4nthc2IY-unsplash.jpg);
+    background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
     max-width: 100%;
     /*max-width: 1000px;*/
     background-size: cover;
@@ -68,12 +68,13 @@ input#toggle {
     display: none;
 }
 
-/*#nav {
-   
-    position: absolute;
-    top: 15px;
-    right: 60px;
-}*/
+/*Testing-Nav*/
+
+.ham {
+    visibility: hidden;
+}
+
+
 .menu ul {
     display: flex;
     list-style-type: none;
@@ -491,7 +492,7 @@ footer a {
     .nav-wrapper {
         text-align: center;
         width: 100%;
-        display: none;
+        /*display: none;*/
     }
 
     .menu ul {
@@ -499,8 +500,12 @@ footer a {
     }
 
     .menu ul li {
-        padding: 15px;
-        background-color: #a6a8ad;
+
+            width: 80%;
+           
+            background-color: #a6a8ad;
+            display: block;
+            margin: 0 auto;
     }
 
     .menu ul li:nth-child(1) {
@@ -510,8 +515,12 @@ footer a {
     
     .menu ul li a {
         border: none;
-        padding: 8px 110px;
+        padding: 1vw 27.5vw;
+   
+        font-size: 24px;
     }
+
+   
 
     input#toggle:checked + .nav-wrapper {
             display: block;
@@ -548,6 +557,54 @@ flex-direction: column;
     flex-direction: column;
     width: 60%;
 }
+
+
+.ham {
+    visibility: visible;
+    position: absolute;
+    /* always keep ham on top of everything */
+    z-index: 1000;
+    top: 20px;
+    right: 50px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+
+   
+    /* show the menu image */
+    background-image: url(/img/iconfinder_menu_3017931.png);
+    background-size: 100%;
+    
+  }
+
+  /* change ham image to close */
+.showClose {
+    background-image: url(/img/iconfinder_essential_set_close_1110973.png);
+  }
+
+  .nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background: black;*/
+    /*width: 50vw;*/
+    /*height: 100vh;*/
+    overflow: hidden;
+    color: white;
+    /* hide the menu above the screen by default */
+    transform: translateY(-100%);
+    /* transition adds a little animation when sliding in and out the menu */
+    transition: transform 0.6s ease;
+  }
+
+  .showNav {
+    /* show the menu */
+    transform: translateY(0);
+  }
+
 
 }
 
