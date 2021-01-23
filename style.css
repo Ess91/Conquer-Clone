@@ -494,7 +494,7 @@ footer a {
         overflow: hidden;
         color: white;
         transform: translateY(-100%);    /* hide the menu above the screen by default */
-        transition: transform 0.6s ease;
+        transition: transform 0.8s ease;
     }
     .showNav {
         transform: translateY(0);
