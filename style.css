@@ -13,8 +13,8 @@
     background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
     width: 100%;
     background-size: cover;
-    /*height: 95vh;*/
-    background-attachment: fixed;
+    /*height: 95vh;
+    background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
 }
