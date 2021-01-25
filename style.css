@@ -543,8 +543,8 @@ footer a {
     }
 }
 
-@media screen and (max-width: 425px) {
+/*@media screen and (max-width: 425px) {
     .extra-col img {
         object-fit: contain;
     }
-}
+}*/
