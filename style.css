@@ -7,7 +7,7 @@
 
 .banner {
     background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
-    /*max-width: 100%;*/
+    width: 100%;
     background-size: contain;
     height: 95vh;
     background-attachment: fixed;
