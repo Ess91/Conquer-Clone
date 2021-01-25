@@ -548,33 +548,9 @@ footer a {
 }
 
 @media screen and (max-width: 425px) {
-    /*.banner {
-        background-image: url(/img/nick-fewings-ajry0fdMcNs-unsplash.jpg);
-        background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);*/
-    /*max-width: 100%;*/
-   /* background-size: cover;
-    height: 95vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-        
-    }*/
-
-    .sharp {
-        image-rendering: -moz-crisp-edges;
-        image-rendering: -o-crisp-edges;
-        image-rendering: -webkit-optimize-contrast;
-        -ms-interpolation-mode: nearest-neighbor;
+    .banner {
+    background-size: contain;
     }
-
-    /*.banner {
-        width: 50%;
-        height: 50%;
-    }*/
-
-    /*#home {
-        width: ;
-    }*/
 
     .extra-col img {
         height: 50vw;
