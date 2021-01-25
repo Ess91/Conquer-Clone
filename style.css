@@ -5,15 +5,15 @@
 
 /* Banner */
 
-/*.banner {
+.banner {
     background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
-    max-width: 100%;
-    background-size: cover;
+    /*max-width: 100%;*/
+    background-size: contain;
     height: 95vh;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
-}*/
+}
 
 .banner-text {
     display: flex;
@@ -526,10 +526,6 @@ footer a {
         width: 60%;
     }
 
-    .banner {
-        object-fit: cover;
-       
-    }
 }
 
 @media screen and (min-width: 521px) and (max-width: 787px) {
@@ -544,17 +540,17 @@ footer a {
 }
 
 @media screen and (max-width: 425px) {
-    .banner {
+    /*.banner {
         background-image: url(/img/nick-fewings-ajry0fdMcNs-unsplash.jpg);
-        /*background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);*/
+        background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);*/
     /*max-width: 100%;*/
-    background-size: cover;
+   /* background-size: cover;
     height: 95vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
         
-    }
+    }*/
     .extra-col img {
         height: 50vw;
     }
