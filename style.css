@@ -5,9 +5,9 @@
 
 /* Banner */
 
-.banner {
+#home {
     background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
-    /*width: 100%;*/
+    width: 100vw;
     background-size: cover;
     height: 95vh;
     background-attachment: fixed;
