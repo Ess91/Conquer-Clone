@@ -556,9 +556,4 @@ footer a {
     .extra-col img {
         height: 50vw;
     }
-    .contact-wrapper {
-       position: fixed;
-       top: 0;
-       left: 0;
-    }
 }
