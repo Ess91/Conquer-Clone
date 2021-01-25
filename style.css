@@ -547,7 +547,7 @@ footer a {
     .banner {
         background-image: url(/img/nick-fewings-ajry0fdMcNs-unsplash.jpg);
         /*background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);*/
-    max-width: 100%;
+    /*max-width: 100%;*/
     background-size: cover;
     height: 95vh;
     background-attachment: fixed;
