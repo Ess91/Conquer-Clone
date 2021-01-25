@@ -329,7 +329,7 @@ a.active {
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
-   filter: none; 
+   filter: blur(0); 
 }
 
 .contact-text h2 {
