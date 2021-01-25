@@ -276,7 +276,7 @@ a.active {
     display: block;
     border: 0;
     width: 100%;
-    /*height: 30vw;*/
+    
 }
 
 .extra-col h3, .extra-col button {
@@ -545,7 +545,10 @@ footer a {
 
 @media screen and (max-width: 425px) {
     .banner {
-        width: 100vw;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     .extra-col img {
         height: 50vw;
