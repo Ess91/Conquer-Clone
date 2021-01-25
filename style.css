@@ -276,7 +276,7 @@ a.active {
     display: block;
     border: 0;
     width: 100%;
-    height: auto;
+    /*height: auto;*/
 }
 
 .extra-col h3, .extra-col button {
