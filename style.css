@@ -21,12 +21,7 @@
     image-rendering: auto;
 }
 
-.sharp {
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    -ms-interpolation-mode: nearest-neighbor;
-}
+
 
 .banner-text {
     display: flex;
@@ -564,6 +559,13 @@ footer a {
     background-repeat: no-repeat;
         
     }*/
+
+    .sharp {
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -o-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        -ms-interpolation-mode: nearest-neighbor;
+    }
 
     /*.banner {
         width: 50%;
