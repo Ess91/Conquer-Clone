@@ -557,7 +557,8 @@ footer a {
         height: 50vw;
     }
     .contact-wrapper {
-        width: 400px;
-        width: 400px;
+        image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
     }
 }
