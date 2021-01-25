@@ -531,6 +531,8 @@ footer a {
     }
     .extra-col img {
         object-fit: scale-down;
+        padding: 0;
+        margin: 0;
     }
 }
 
