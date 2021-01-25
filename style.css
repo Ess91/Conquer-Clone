@@ -551,6 +551,10 @@ footer a {
     background-repeat: no-repeat;
         
     }*/
+
+    .banner {
+        width: 100%;
+    }
     .extra-col img {
         height: 50vw;
     }
