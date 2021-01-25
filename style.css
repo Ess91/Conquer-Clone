@@ -527,7 +527,8 @@ footer a {
     }
 
     .banner {
-        object-fit: contain;
+        object-fit: cover;
+        background-size: none;
     }
     .extra-col img {
         object-fit: scale-down;
