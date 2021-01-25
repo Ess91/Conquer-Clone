@@ -10,7 +10,7 @@
 }
 
 .banner {
-    background-image: url(/img/johannes-plenio-RwHv7LgeC7s-unsplash.jpg);
+    background-image: url(/img/nick-fewings-ajry0fdMcNs-unsplash.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -36,7 +36,7 @@
 }
 
 .banner-text-items h1 {
-    font-size: 7vw;
+    font-size: 11vw;
     padding-top: 100px;
     text-transform: uppercase;
 }
@@ -200,7 +200,7 @@ a.active {
     background-image: url(/img/hazal-ozturk-yiEYUO0Geic-unsplash.jpg);
     width: 100%;
     background-size: cover;
-    height: 60vh;
+    height: 70vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -218,12 +218,13 @@ a.active {
 }
 
 .service-banner-text-items h3 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-transform: uppercase;
 }
 
 .service-banner-text-items p {
-    font-size: 1.46vw;
+    font-size: 2.5vw;
+    padding: 0 15px;
 }
 
 .service-wrapper {
@@ -321,7 +322,7 @@ a.active {
 /*Contact*/
 
 .contact-wrapper {
-    background-image: url(/img/sebastian-unrau-9Yz9Us5-D0s-unsplash.jpg);
+    background-image: url(/img/christina-deravedisian-m0odxYBcFSw-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -335,7 +336,7 @@ a.active {
     display: flex;
     font-size: 2.56vw;
     justify-content: center;
-    padding-top: 8%;
+    padding-top: 5%;
 }
 
 .contact-text p {
@@ -357,6 +358,8 @@ a.active {
 
 ::placeholder {
     color: #fff;
+    font-weight: bolder;
+    font-size: 14px;
 }
 
 .message-area {
