@@ -238,6 +238,7 @@ a.active {
 
 .service-card {
     flex: 0 1 24%;
+    float: left;
 }
 
 .service-card img {
@@ -344,9 +345,17 @@ a.active {
 .contact-text p {
     color: #fff;
     display: flex;
-    font-size: 1.83vw;
+    font-size: 20px;
     text-align: center;
     padding: 1em 3em 0px 7em;
+    /*border: 1px solid #fff;*/
+
+    box-sizing: content-box;
+width: 80%;
+margin: 0 auto;
+border: 1px solid #fff;
+padding: 5px;
+background-color: transparent;
 }
 
 .form-area {
