@@ -227,6 +227,7 @@ a.active {
 }
 
 .service-banner-text-items h3 {
+    padding-bottom: 10px;
     font-size: 50px;
     text-transform: capitalize;
 }
@@ -437,8 +438,8 @@ button.btn {
     font-size: 40px;
     color: #0242e5;
     cursor: pointer;
-    right: 2px;
-    bottom: 20px;
+    right: 20px;
+    bottom: 38px;
     transition: all 300ms;
 }
 
@@ -566,13 +567,23 @@ footer a {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 558px) {
     .service-card {
-        flex: 0 1 240px;
+        flex: 0 1 300px;
         margin-bottom: 30px;
       
     }
+}
 
+@media screen and (max-width: 425px) {
+
+    .service-banner-text-items h3 {
+        font-size: 38px;
+    }
+
+    .service-banner-text-items p {
+        font-size: 16px;
+    }
     .contact-text h2 {
         font-size: 20px;
     }
