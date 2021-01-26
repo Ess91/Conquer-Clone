@@ -232,14 +232,22 @@ a.active {
 }
 
 .service-banner-text-items {
-    color: #fff;
+   /* color: #fff;
     margin: auto;
-    text-align: center;
+    text-align: center;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(30vh - 12vh);
+    width: 100%;
+    margin: 0;
 }
 
 .service-banner-text-items h3 {
-    font-size: 6vw;
-    text-transform: uppercase;
+    font-size: 50px;
+    text-transform: capitalize;
 }
 
 .service-banner-text-items p {
