@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Banner */
@@ -231,7 +232,7 @@ a.active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 70px;
+    margin: 60px;
     flex: 1;
 }
 
@@ -547,7 +548,8 @@ footer a {
         flex-direction: row;
     }
     .service-card {
-        flex: 0 1 48%;
+        flex: 0 1 44%;
+      margin-bottom: 20px;
     }
 }
 
